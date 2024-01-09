@@ -1,1 +1,2 @@
-Map is created by using leaflet. Database is connecting by env variable. 
+The map is created using Leaflet. 
+The database is connected through an environment variable.
