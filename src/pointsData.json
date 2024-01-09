@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "position": [51.505, -0.09],
+    "title": "Marker 1",
+    "photo": "https://example.com/photo1.jpg"
+  },
+  {
+    "id": 2,
+    "position": [51.51, -0.1],
+    "title": "Marker 2",
+    "photo": "https://example.com/photo2.jpg"
+  },
+  {
+    "id": 3,
+    "position": [51.515, -0.08],
+    "title": "Marker 3",
+    "photo": "https://example.com/photo3.jpg"
+  }
+]

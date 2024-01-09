@@ -1,0 +1,11 @@
+.leaflet-container {
+    height: 80vh;
+    width: 140vh;
+}
+.custom-popup-pane {
+    pointer-events: none;
+}
+.leaflet-popup-content-wrapper{
+    width: 250px;
+    height: 200px;
+}
