@@ -11,7 +11,7 @@ const AddMarker = () => {
     useEffect(() => {
         const fetchMarkers = async () => {
             try {
-                const response = await axios.get('http://localhost:10000/markers');
+                const response = await axios.get('http://localhost:3001/markers');
                 setMarkers(response.data);
             } catch (error) {
                 console.error('Error loading markers:', error);
@@ -23,7 +23,7 @@ const AddMarker = () => {
 
     const saveMarkerToServer = async (newMarker) => {
         try {
-            const response = await axios.post('http://localhost:10000/markers', newMarker);
+            const response = await axios.post('http://localhost:3001/markers', newMarker);
 
             if (response.status === 201) {
                 const savedMarker = response.data;
